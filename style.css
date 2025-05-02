@@ -107,6 +107,8 @@
     padding: 35px 25px 25px;
     line-height: 1.428571429;
     font-family: sans-serif;
+    display: flex;
+    justify-self: center;
   }
   .grass-child img{
     border-radius: 50%;
