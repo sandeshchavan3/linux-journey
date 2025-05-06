@@ -6,6 +6,9 @@
   }
   .navbar {
     display: flex;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #2C3E50;
@@ -40,6 +43,7 @@
     background-color: #18BC9C;
     color: white;
     padding: 80px 0;
+    height: 100vh;
   }
   .center{
     display: flex;
@@ -50,7 +54,7 @@
   .header-txt{
     text-align: center;
     font-weight: lighter;
-    font-size: 23px;
+    font-size: 30px;
     padding:  25px 65px;
     margin-top: 20px;
     margin-bottom: 10px;
